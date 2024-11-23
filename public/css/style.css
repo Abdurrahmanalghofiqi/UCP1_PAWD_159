@@ -1,0 +1,264 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+h1 {
+    color: #ed1616; /* Bright accent color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ed1616; /* Link color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Button Styles */
+button, .button {
+    padding: 10px 20px;
+    background-color: #ed1616; /* Bright button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    background-color: #ed1616; /* Slightly darker shade on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #333; /* Dark background for tables */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+table, th, td {
+    border: 1px solid #444; /* Light border on dark background */
+}
+
+th {
+    background-color: #ed1616; /* Bright table header */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #e0e0e0;
+}
+
+td img {
+    border-radius: 5px;
+    width: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a; /* Darker rows for contrast */
+}
+
+tr:hover {
+    background-color: #444; /* Highlight row on hover */
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #333; /* Dark form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #222; /* Dark input background */
+    color: #fff; /* White text in inputs */
+}
+
+form button {
+    width: 100%;
+    background-color: #ed1616; /* Bright button color */
+    color: #fff;
+}
+
+form button:hover {
+    background-color: #ed1616; /* Slightly darker button on hover */
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Gaya tambahan untuk konten */
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Agar teks terlihat */
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table img.photo {
+    max-width: 50px;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #ed1616;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button.add-button {
+    background: #ed1616;
+}
+
+.button.edit-button {
+    background: #ffc107;
+}
+
+.button.delete-button {
+    background: #dc3545;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Agar teks terlihat */
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table img.photo {
+    max-width: 50px;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button.add-button {
+    background: #dc3545;
+}
+
+.button.edit-button {
+    background: #ffc107;
+}
+
+.button.delete-button {
+    background: #dc3545;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Agar teks terlihat */
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table img.photo {
+    max-width: 50px;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button.add-button {
+    background: #dc3545;
+}
+
+.button.edit-button {
+    background: #ffc107;
+}
+
+.button.delete-button {
+    background: #dc3545;
+}

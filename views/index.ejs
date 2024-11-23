@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumah Sakit AJA</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="image-background">
+        <img 
+            src="https://th.bing.com/th/id/OIP.rq4VolPzGaQz3EDKkxjRvQHaFj?rs=1&pid=ImgDetMain" 
+            alt="Background Image" 
+            class="background-image">
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>Data Rumah Sakit AJA</h1>
+            <a href="/add" class="button add-button">Tambah</a>
+        </header>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama Rumah Sakit</th>
+                        <th>Alamat</th>
+                        <th>No Telepon</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% items.forEach(item => { %>
+                    <tr>
+                        <td><%= item.nama %></td>
+                        <td><%= item.alamat %></td>
+                        <td><%= item.notlp %></td>
+                        <td>
+                            <a href="/edit/<%= item.id %>" class="button edit-button">Edit</a>
+                            <a href="/delete/<%= item.id %>" class="button delete-button">Delete</a>
+                        </td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
